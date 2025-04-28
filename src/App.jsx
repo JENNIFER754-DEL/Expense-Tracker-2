@@ -11,7 +11,7 @@ function App() {
   ]);
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchInput, setSearchInput] = useState(""); // input field
+  const [searchInput, setSearchInput] = useState(""); 
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleDelete = (id) => {
@@ -45,7 +45,7 @@ function App() {
       <h1>Expense Tracker</h1>
       <ExpenseForm onAddExpense={handleAddExpense} />
 
-      {/* Search Bar */}
+     
       <div className="search-container">
         <input
           type="text"

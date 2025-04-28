@@ -1,71 +1,66 @@
-   EXPENSE TRACKER
-   
-1.Description
-A simple expense tracker application built with React.
+# Expense Tracker
 
-2.Features
-Add, view, and delete expenses.
+## Description
+A simple expense tracker application built with React. It allows users to add, view, and delete expenses, with filtering options by description or category. The app features a responsive design for both mobile and desktop devices.
 
-Filter expenses by description or category.
+## Features
+- Add, view, and delete expenses
+- Filter expenses by description or category
+- Responsive design for mobile and desktop
 
-Responsive design for mobile and desktop.
+## Technologies Used
+- React
+- Vite
+- JSON Server (for mock API)
+- Vanilla CSS
 
-3.Technologies Used
-React
+## Deployment
+The application is deployed on Vercel.  
+Live demo: [Expense Tracker](https://expense-tracker-2-6fv6qrssc-jennifer754-dels-projects.vercel.app/)
 
-Vite
+## Setup
 
-JSON Server (for mock API)
+### Clone the repository
+```bash
+git clone <repository-url>
+```
 
-Vanilla CSS
-
-4.Deployment
-Deployed on Vercel.
-
-Live demo: 
-
-5.Set Up
-To set up the project locally:
-
-Clone this repository:
-
-git clone <>
-
-Navigate to the project directory:
-
+### Navigate to the project directory
+```bash
 cd expense-tracker-app
+```
 
-Install the required dependencies:
+### Install dependencies
+```bash
+npm install
+```
 
-   npm install
+## Development
 
-Development
-To run the application in development mode:
+### Start the development server
+```bash
+npm run dev
+```
 
-Start the development server:
-
-   npm run dev
-
-Open the app in your browser at:
-
+Open the app in your browser at:  
 http://localhost:3000
 
-Build
-To create a production build:
+## Build
 
-Run the build command:
-
+### Create a production build
+```bash
 npm run build
+```
 
-The build will be available in the dist folder.
+The build will be available in the `dist` folder.
 
-Run JSON Server
-To run the mock API with JSON Server:
+## Run JSON Server
 
-Start the JSON server:
-
+### Start the mock API server
+```bash
 json-server --watch tasks.json
+```
 
-Run the JSON server on a custom port:
-
+### Run JSON Server on a custom port
+```bash
 json-server --watch tasks.json --port 3001
